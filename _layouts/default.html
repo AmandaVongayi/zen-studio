@@ -2,15 +2,54 @@
 <html lang="en">
 
 <head>
+
+    <!-- Title -->
+    <title> the zen studio </title>
+
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External Links -->
+    <!-- Gridlex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" type="text/css" href="/style.css" />
     <title>{{page.title}}</title>
 </head>
 
 <body>
+    <header class = "bg-image tall-60 padded center landscape">
+        <h1> zen. studio</h1> 
+        <i class="fas fa-chevron-down"></i>
+
+    </header>
+    
     {{content}}
+
+    <footer class = "grid padded"> 
+        <h2 class = "col-12"> Find us. Contact Us. </h2>
+        <div class = "col-4">
+            <h3>Studio.</h3>
+            <p> <strong>John-Smith-Ave Victoria, Australia</strong> </p>
+
+            <p><em>Take the second left after the strange looking sign</em> </p>
+
+            <a href = "mailto:John.smith@gmail.com"> John.smith@gmail.com</a>
+            <a href = "tel:+62878739405">Ph: +62 8787 39405</a>
+        </div>
+
+        <div class = "col-8 bg-image"> 
+            
+        </div>    
+        
+        <div class = "col-12">
+            <p> Copyright 2021</p>
+        </div>
+    </footer>
 </body>
 
 </html>
