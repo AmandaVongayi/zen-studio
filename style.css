@@ -103,7 +103,7 @@ p {
 }
 a{
     display: block;
-    
+
 }
 h2:last-child, 
 h3:last-child, 
@@ -131,11 +131,18 @@ p:last-child {
 
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
-.landscape     { padding-bottom: 66%:  }
+.landscape     { padding-bottom: 66%;  }
 .portrait-tall { padding-bottom: 175%; }
 .portrait      { padding-bottom: 125%; }
 .square        { padding-bottom: 100%; }
 
+
+.tall-50 { min-height: 50vh;}
+.tall-60 { min-height: 60vh;}
+.tall-70 { min-height: 70vh;}
+.tall-80 { min-height: 80vh;}
+.tall-90 { min-height: 90vh;}
+.tall-100 { min-height: 100vh;}
 
 /* Background Position */
 .bg-pos-t { background-position: top; }
